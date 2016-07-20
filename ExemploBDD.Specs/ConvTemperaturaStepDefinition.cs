@@ -19,6 +19,8 @@ namespace ExemploBDD.Specs
         public void CarregarTemperaturaFahrenheit(double temperatura)
         {
             _temperaturaFahrenheit = temperatura;
+
+
         }
 
         [When("eu solicitar a conversão da temperatura")]
