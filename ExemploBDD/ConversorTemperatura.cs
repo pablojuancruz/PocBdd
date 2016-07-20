@@ -11,6 +11,8 @@ namespace ExemploBDD
 
         public static double FahrenheitParaKelvin(double temperatura)
         {
+
+        
             return Math.Round((temperatura - 32) / 1.8, 2) + 273.15;
         }
     }
